@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-react08-dev-184227-authRole",
-      "UnauthRoleArn": "arn:aws:iam::455587134902:role/amplify-react08-dev-184227-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::455587134902:role/amplify-react08-dev-184227-authRole",
-      "Region": "ap-south-1",
-      "DeploymentBucketName": "amplify-react08-dev-184227-deployment",
-      "UnauthRoleName": "amplify-react08-dev-184227-unauthRole",
-      "StackName": "amplify-react08-dev-184227",
-      "StackId": "arn:aws:cloudformation:ap-south-1:455587134902:stack/amplify-react08-dev-184227/b6bf5e30-3339-11ec-8f76-02a378002e46",
-      "AmplifyAppId": "dk4ks23yg1e8z"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-react08-dev-184227-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455587134902:role/amplify-react08-dev-184227-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455587134902:role/amplify-react08-dev-184227-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-react08-dev-184227-deployment",
+            "UnauthRoleName": "amplify-react08-dev-184227-unauthRole",
+            "StackName": "amplify-react08-dev-184227",
+            "StackId": "arn:aws:cloudformation:ap-south-1:455587134902:stack/amplify-react08-dev-184227/b6bf5e30-3339-11ec-8f76-02a378002e46",
+            "AmplifyAppId": "dk4ks23yg1e8z"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dk4ks23yg1e8z",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
